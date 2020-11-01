@@ -1,0 +1,53 @@
+body{
+    font-family: 'segoe ui light';
+}
+
+.bg-gray{
+    background-color: #f8f8f8 !important;
+}
+.bg-red{
+    background-color: #ef4836 !important;
+}
+.color-red{
+  color: #ef4836 !important;
+}
+.box-shadow{
+    box-shadow: 0 5px 13px rgba(0,0,0,0.1) !important;
+}
+#recipes-search .media img{
+    width: 70px !important;
+    height: 70px !important;
+}
+#recipes-search a{
+    color: black !important;
+    font-weight: 600;
+}
+#recipes-search a:hover{
+    color: #ef4836 !important;
+    text-decoration: none;
+}
+#recipes-search h6{
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.37);
+    height: 50vh;
+}
+.banner{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.intro{
+    position: absolute;
+    left:10%;
+    top: 30%;
+}
